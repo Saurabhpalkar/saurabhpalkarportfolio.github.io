@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh Palkar Portfolio wesite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="skill.css">
+    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact1.css">
+    <link rel="stylesheet" href="https://drive.google.com/file/d/1NV4rtpb7YEe5AjwZ-1Al2VF1yeSrH9P4/view?usp=sharing">
+    <link rel="stylesheet" href="https://drive.google.com/file/d/1IbyuWZ7tJnFD96Tsk28um37n0Rxvfqtu/view?usp=sharing">
+    <link rel="stylesheet" href="https://drive.google.com/file/d/1MDxzRGP6qb1iJg1FCU4ln5DVFu3Nnqr4/view?usp=sharing">
+    <link rel="stylesheet" href="https://drive.google.com/file/d/1O5XRAqEdEgNqhmbL6avUGaVawEchQ5yM/view?usp=sharing">
+    <link rel="stylesheet" href="https://drive.google.com/file/d/19yNMHP7Rg8UosRdo-nyfqOBR3Jd84a3t/view?usp=sharing">
+    <link rel="stylesheet" href="https://drive.google.com/file/d/1-8ea8V42V2rh5prdSlLJzQ9HBXFy36SI/view?usp=sharing">
+    <link rel="stylesheet" href="https://drive.google.com/file/d/1uLiSJ9vzp60_Fcd7KaFTv2Ne5QePOt3I/view?usp=sharing">
+    <link rel="stylesheet" href="https://drive.google.com/file/d/1uLiSJ9vzp60_Fcd7KaFTv2Ne5QePOt3I/view?usp=sharing">
+    <link rel="stylesheet" href="https://drive.google.com/file/d/1vnXwrkmIZEFaRQBiGsmI7wkxNZBy90DZ/view?usp=sharing">
+    <script src="social.js"></script>
+    </head>
+
+<body>
+    <!-- <header style="width: 100; height: 2rem;">
+    </header> -->
+    <nav class="navbar nav-height" id="navbar" >
+        <div class="navbar-content ">
+            <div class="logo logo-visibility"><a href="#">S<span>P</span></a></div>
+            <div class="nav-list ">
+                <ul class="menu " id="menu">
+                    <li><a href="#home">Home</a> </li>
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#resume">Resume</a> </li>
+                    <!-- <li><a href="blog.html">Blog</a> </li> -->
+                    <li><a href="#contact-section"> Contact </a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <button class="open-btn" onclick="openNav()">☰</button>
+                <!-- <button class="close-btn" onclick="closeNav()">☰</button> -->
+             </div>
+        </div>
+        
+       
+    </nav>
+
+    <!-- ..........home section........ -->
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <div class="max-width">
+                <div class="home-content left-right">
+                    <div class="text-1"><span>Hello,</span> <span>my name is</span></div>
+                    <div class="text-2"><span class="name">Saurabh</span> <span class="name">Palkar</span></div>
+                    <div class="text-3"><span>And I'm a</span> <span class="developer">Developer</span></div>
+                    <div class="hire-btn"><button class="btn-hire" style="margin-bottom: 6rem;">Hire me</button>
+                    </div>
+                    <span class="home-media-icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-google"></i>
+                        <i class="fa fa-whatsapp"></i>
+                    </span>
+                </div>
+               
+
+                <div class="left-content  left-right">
+                    <div class="left-img">
+                        <img src="sau.png" alt="saurabh">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!----------------------- about section start-------------- -->
+    <section class="about-section" id="about">
+        <div class="extra-about-container">
+            <div class="about-title">
+                <h2>About Me</h2>
+            </div>
+
+            <div class="container-about">
+                <div class="pic-about" id="about-sub-container">
+                    <img src="sau.png" alt="its me">
+                </div>
+
+                <div class="container-about1" id="about-sub-container">
+                    <div class="desc-about">
+                        <div class="sub-desc-about">
+                            I'm Saurabh Palkar, Web Developer
+                            An enthusiastic highly motivated and diploma holder looking for an entry level position in
+                            HR and
+                            Admin field as a fresher.I have interest in web development and have knowledge about
+                            computer
+                            languages likes  HTML, CSS and JAVASCRIPT 
+                            <span id="dots">...</span> <span id="more">
+                            Also I have worked as computer technician in Xigox computer. My career objective is to work
+                            for
+                            organization which provides me with opportunity to improve my skills and knowledge to grow
+                            along
+                            with company goals. When I am not working I usually my time listening songs or playing
+                            cricket.</span>
+                            <button  onclick="readMore()" id="btn">Read More</button>
+                        </div>
+
+                        <div class="download-cv">
+                            <button ><i class="fa fa-download"></i> Download CV</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+<!-- ....................about javascript....................... -->
+    <script>
+        function readMore(){
+            var dots = document.getElementById("dots");
+            var more = document.getElementById("more");
+            var btn = document.getElementById("btn");
+
+            if(dots.style.display === "none"){
+                dots.style.display = "inline";
+                btn.innerHTML = "read more";
+                more.style.display = "none";
+                
+            }else{
+                dots.style.display = "none";
+                btn.innerHTML = "read less";
+                more.style.display = "inline";
+
+            }
+        }
+    </script>
+
+
+    <section class="skills-section" id="skill">
+        <div class="skill-extra-container">
+            <div class="skill-head">My Skills</div>
+
+            <div class="skill-container">
+
+                <div class="left-content" id="left-right">
+                    <div class="desc-skill">I have interest in web development and have knowledge about
+                        computer
+                        languages likes  HTML, CSS and JAVASCRIPT 
+                        Also I have worked as computer technician in Xigox computer.
+                    </div>
+                </div>
+                <!-- <div class="wrapper"> -->
+                <div class="right-content" id="left-right">
+                    <div class="right-content-sub">
+                        <div class="progrssbar right-title">
+                            <!-- <h1>My Skills</h1> -->
+                        </div>
+
+                        <div class="skills">
+                            <div class="details">
+                                <span>HTML</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="bar">
+                                <div id="html-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills">
+                            <div class="details">
+                                <span>CSS</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="bar">
+                                <div id="css-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills">
+                            <div class="details">
+                                <span>JAVASCRIPT</span>
+                                <span>40%</span>
+                            </div>
+                            <div class="bar">
+                                <div id="javascript-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills">
+                            <div class="details">
+                                <span>Hardware Technician</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="bar">
+                                <div id="technician-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <section class="resume" id="resume">
+        <div class="resume-container" id="top-bottom">
+            <div class="r-heading">
+                <h2>My Education</h2>
+            </div>
+            <div class="resume-container1" id="r-education">
+                <div class="r-diploma" id="r-std">
+                    <i class="	fa fa-university resume-icons"></i>
+                    <div class="year">2021</div>
+                    <div class="degree">Diploma I Computer Engineering</div>
+                    <div class="college-name">Sahyadri Polytechnic, Sawarde</div>
+                    <div class="marks">80.46%</div>
+                </div>
+
+                <div class="r-hsc" id="r-std">
+                    <i class="	fa fa-university resume-icons"></i>
+                    <div class="year">2017</div>
+                    <div class="degree">Higher Secondary Certification</div>
+                    <div class="college-name">Khare-Dhere College, Guhagar</div>
+                    <div class="marks">56.62%</div>
+                </div>
+
+                <div class="r-ssc" id="r-std">
+                    <i class="	fa fa-university resume-icons"></i>
+                    <div class="year">2015</div>
+                    <div class="degree"> Secondary School Certification</div>
+                    <div class="college-name">Vardan New English School, Palpene</div>
+                    <div class="marks">81.40%</div>
+                </div>
+            </div>
+
+
+            <div class="resume-container2" id="top-bottom">
+                <div class="left-content" id="left-right">
+                    <div class=" left-title certificate">
+                        Certificates
+                    </div>
+                    <div class="certificate1 certificate">
+                        <div class="js-biginner certificate-title">Javascript For Biginners</div>
+                        <div class="certificate-name"><span>(Skill Up by simple learn)</span></div>
+                    </div>
+                    <div class="certificate2 certificate">
+                        <div class="persistent certificate-title ">Industrial Training (3 Months)</div>
+                        <div class="certificate-name"><span>Persistent Technology,Chiplun</span></div>
+                    </div>
+                    <div class="certificate3 certificate">
+                        <div class="ccc certificate-title">Computer Concept Course</div>
+                        <div class="certificate-name"><span>Saee Institute of, Guhagar</span></div>
+                    </div>
+                    <!-- <div class="certificate4 certificate">
+                        <div class="experience certificate-title">Experience</div>
+                        <div class="certificate-name"><span>fresher</span></div>
+                    </div> -->
+                </div>
+
+
+                <!-- <div class="right-content" id="left-right"> -->
+                <div class="right-content" id="left-right">
+                    <div class="right-title">
+                        My Skills
+                    </div>
+                    <div class="sub-right-container">
+                        <div class="skills">
+                            <div class="details">
+                                <span>HTML</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="bar">
+                                <div id="html-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills">
+                            <div class="details">
+                                <span>CSS</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="bar">
+                                <div id="css-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills">
+                            <div class="details">
+                                <span>JAVASCRIPT</span>
+                                <span>40%</span>
+                            </div>
+                            <div class="bar">
+                                <div id="javascript-bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills">
+                            <div class="details">
+                                <span>Hardware Technician</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="bar">
+                                <div id="technician-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class=" contact-section" id="contact-section">
+        <div class="extra-container">
+
+            <h2 class="title">Contact me</h2>
+            <div class="contact-container">
+                <div class="left-content" id="contact">
+                    <div class="left-heading">
+                        <div class="left-title left-right-title">
+                            Get in Touch
+                        </div>
+                        <div class="icons">
+                            <div class="row">
+                                <i class="fa fa-user icon"></i>
+                                <div class="info">
+                                    <div class="head">Name</div>
+                                    <div class="sub-title">Saurabh Palkar</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fa fa-envelope icon"></i>
+                                <div class="info">
+                                    <div class="head">Email</div>
+                                    <div class="sub-title">palkarsaurabh00@gmail.com</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fa fa-address-book"></i>
+                                <div class="info">
+                                    <div class="head">Address</div>
+                                    <div class="sub-title adr">virar east
+                                        Ghasskopari, <br>
+                                        Chandansar Road, <br>
+                                        Virar east.</div>
+                                </div>
+                            </div>
+                        </div>
+                      
+
+                    </div>
+                    <div class="contact-media-icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-google"></i>
+                        <i class="fa fa-whatsapp"></i>
+                    </div>
+
+                </div>
+
+
+                <div class="right-content" id="contact">
+
+
+                    <form onsubmit="sendMail();" action="#" name="Contact-form" id="contact_form">
+                        <div class="right-title left-right-title">
+                            Message Me
+                        </div>
+                        <div class="fields">
+                            <div class="fname-email">
+                                <div class=" field fname " id="fname-email">
+                                    <input type="text" name="name" id="name" placeholder="name" autocomplete="off" required>
+                                </div>
+                                <div class="field email" id="fname-email">
+                                    <input type="email" name="email" id="email" placeholder="email" autocomplete="off" required>
+                                </div>
+                            </div>
+                            <!-- </div> -->
+                            <div class=" field subject">
+                                <input type="text" name="subject" id="subject" placeholder="subject">
+                            </div>
+                            <div class="field message">
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="message"
+                                    autocapitalize="off" required></textarea>
+                            </div>
+
+
+                            <div class="field btn">
+                                <button type="submit">Send message</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </form>
+        </div>
+        </div>
+
+        <!-- <div class="container">
+                <div class="txt">
+                </div>
+                <div class="txt">
+                </div>
+                <div class="txt">
+                   
+                </div>
+                <div class="btn"><button>Send</button></div>
+            </div> -->
+
+        </form>
+    </section>
+
+
+
+    <footer class="background">
+        <div class="text-footer">
+            Copyright &copy; 2027 www.saurabhpalkarportfolio.com -All right reserved
+            <!-- <div class="footer-social-media"> -->
+                <div class="footer-media-icons">
+                    <a href="" class="facebook-btn">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+            
+                    <!-- <a href="">
+                        <i class="fa fa-instagram"></i>
+                    </a> -->
+                    <a href="" class="google-btn">
+                        <i class="fa fa-google"></i>
+                    </a>
+                    <a href="" class="linkedin-btn">
+                        <i class="fa fa-linkedin" ></i>
+                    </a>
+                    <a href="" class="whatsapp-btn">
+                        <i class="fa fa-whatsapp"></i>
+                    </a>
+                </div>
+        </div>
+    </footer>
+   
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+
+    <script>
+
+        // function sendMail(){
+            // var name = document.getElementById("name").value;
+            // var email = document.getElementById("email").value;
+            // var subject = document.getElementById("subject").value;
+            // var message = document.getElementById("message").value;
+            // // var name = document.getElementById("name").value;
+
+        
+            // }
+        //     Email.send({
+        //     Host : "smtp.gmail.com",
+        //     Username : "palkarsaurabh00@gmail.com",
+        //     Password : "password",
+        //     To : 'palkarsaurabh00@gmail.com',
+        //     From : document.getElementById("email").value,
+        //     Subject : "New contact form Enquery",
+        //     Body : "Name:"+document.getElementById("name").value
+        //             +"</br> Email:" +document.getElementById("email").value
+        //             +"</br> Subject:" +document.getElementById("subject").value
+        //             +"</br> Message:" +document.getElementById("message").value
+
+        // }).then(
+        // message => alert(message)
+        // );
+
+     
+    </script>
+
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+        const form = document.querySelector('.contact_form');
+
+        function sendMail(e){
+            e.preventDefault();
+           const name = document.querySelector('.name'),
+            email = document.querySelector('.email'),
+            subject = document.querySelector('.subject'),
+            message = document.querySelector('.message');
+
+            // ...................function send mail..........
+            Email.send({
+                SecureToken : "234c4118-ecd7-4677-a3e0-1df5759bd995",
+                To : 'palkarsaurabh00@gmail.com',
+                From : email.value,
+                Subject : "contact form",
+                Body : message.value
+            }).then(
+            message => alert("mesage send successfully..........")
+            );
+            }
+
+            // add the event Listener
+            form.addEventListener('submit',sendMail);
+    </script>
+
+    <script>
+        function openNav(){
+            document.getElementById("navbar").style.width = "0%";
+            var x = document.getElementById("menu");
+            if(x.style.display === "block"){
+                x.style.display = "none";
+            }else{
+                x.style.display = "block";
+                // x.style.backgroundColor ="none";
+            document.getElementById("navbar").style.width = "50%";
+
+
+            }
+
+        }
+
+       
+        
+
+    </script>
+
+    
+
+</body>
+
+</html>

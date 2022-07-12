@@ -1,0 +1,420 @@
+.r-heading {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+    background: -webkit-linear-gradient(yellow, wheat);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #ADEFD1FF;
+}
+
+#top-bottom{
+    /* width: 50%; */
+    /* paddinsg: 3rem; */
+}
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* border: 2px solid yellow; */
+    padding: 5rem;
+    /* background-image: url("resume-img3.jpg"); */
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-color: #00203FFF;
+}
+
+.resume-container1{
+    display: flex;
+    /* border: 2px solid blue; */
+    margin-top: 4rem;
+    justify-content: center;
+    box-shadow: .5rem .5rem 1rem;
+    flex-wrap: wrap;
+    /* padding: 0rem; */
+    /* color: yellow; */
+    font-family: 'poppins',sans-serif;
+
+}
+
+.resume-certificate{
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    /* margin-left: 5rem; */
+}
+
+.resume-icons{
+    color: darkgoldenrod;
+    font-size: 6s9px;
+}
+
+
+#r-std{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+    /* margin-top: 4rem; */
+    /* box-shadow: .2rem .2rem 0.2rem; */
+    font-size: 1rem;
+    /* background-color: grey; */
+    /* border:  2PX solid #00539CFF ; */
+    color: wheat;
+    /* flex-wrap: wrap; */
+
+} 
+
+/*.......... in education section .r-certificate section .............*/
+
+.resume-container2{
+    display: flex;
+    /* border: 2px solid green; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    margin-top: 5rem;
+    /* box-shadow: .5rem .5rem 0.5rem; */
+    /* background-color: wheat; */
+    width: 100%;
+
+
+
+}
+
+.resume-container2 #left-right{
+    width: 50%;
+    margin: 1rem;
+    font-family: 'poppins',sans-serif;
+
+
+}
+
+.resume-container .certificate{
+    /* margin-top: 2rem; */
+}
+
+.resume-container .certificate .certificate-title{
+    /* font-weight: 900; */
+    /* border: 2px solid blue; */
+    color: crimson;
+    font-size: 1.3rem;
+
+    
+}
+
+.resume-container .certificate .certificate-name{
+    /* border: 2px solid blue; */
+    font-weight: 300;
+    color: white;
+    margin-bottom: 2rem;
+
+
+}
+ 
+
+.resume-container2 .left-content .left-title {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #ADEFD1FF;
+    margin-bottom: 2rem;
+
+
+}
+
+
+
+
+
+
+/* --------------------------------------------------------------------------- */
+/* right section of education section */
+
+.resume-container .right-content{
+    /* display: flex; */
+    /* flex-direction: column; */
+    box-shadow: 5px 5px 10px;
+    /* padding: 2rem; */
+    /* font-size: 0.90rem; */
+
+}
+
+
+
+.resume-container2 .right-content span{
+    /* padding: 3rem; */
+}
+
+
+/*............ skill section............ */
+
+.resume-container2 .right-content .right-title {
+    font-weight: 500;
+     font-size: 2rem;
+     margin-bottom: 2rem;
+     /* margin-left: 2rem; */
+     /* font-size: 72px; */
+     color: #ADEFD1FF;
+  
+
+}
+
+ .resume-container2 .right-content {
+    /* padding: 30px 30px 50px; */
+    /* margin: 0rem 7rem; */
+    /* background-color: black; */
+    /* border: 2px solid rgba(255,255,255,0.06); */
+    /* border-radius: 10px; */
+    /* backdrop-filter: blur(10px); */
+    /* border: 2px solid black; */
+    /* width: 100%; */
+    /* backdrop-filter: blur(10px); */
+    display: flex;
+    flex-direction: column;
+    /* width: fit-content; */
+    flex-wrap: wrap;
+}
+
+.resume-container2 .right-content .sub-right-container{
+    padding: 30px 30px 50px;
+    /* margin: 2rem 0rem 2rem 5rem; */
+    /* border: 2px solid green; */
+    box-shadow: 3px 3px 5px;
+    /* background-color: #111; */
+    /* color: #ADEFD1FF; */
+
+}
+
+.resume-container2 .right-content *{
+    font-family: "Poppins",sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.resume-container .right-content .skills{
+        /* background-color: #333; */
+        /* margin: 2rem; */
+        /* height: 1rem; */
+}
+
+/* .progressbar h1{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+} */
+.skills:not(:last-child){
+    /* margin-bottom: 1rem; */
+}
+
+.right-content .skills .details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: .5rem;
+    /* background-color: #0a7aca; */
+}
+
+.sub-right-container .skills .details span{
+    color: wheat;  
+
+}
+
+.sub-right-container .bar{
+    /* position: relative; */
+    /* width: 30rem; */
+    height: .6rem;
+    background-color: white;
+    border-radius: 1rem;
+    /* background-color:  red; */
+    border: 1px solid rgb(112, 7, 217);
+    
+
+    
+}
+
+.sub-right-container .bar div{
+    width: 0rem;
+    height: .5rem;
+    /* background-color: #0d96e0; */
+    position: relative;
+    border-radius: 1rem;
+    /* border: 1px solid #0d96e0; */
+
+
+}
+
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+100%{
+        width: 80%;
+    }
+}
+
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100% {
+        width: 70%;
+    }
+}
+
+#javascript-bar{
+    animation: javascript-fill 2s forwards;
+}
+@keyframes  javascript-fill{
+    100%{
+        width: 40%;
+    }
+}
+
+#technician-bar{
+    animation: technician-fill 2s forwards;
+}
+
+@keyframes technician-fill {
+    100%{
+        width: 50%;
+    }
+}
+
+
+/* .........respomsive media query.........respomsive */
+
+@media (max-width:500px){
+
+    .r-heading{
+        font-size: 3rem;
+    }
+   
+    .resume-container1{
+        display: flex;
+        /* border: 2px solid blue; */
+        margin-top: rem;
+        /* justify-content: space-between; */
+        box-shadow: .5rem .5rem .5rem;
+        flex-wrap: wrap;
+    
+    }  
+    
+
+    .resume-container2{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid blue; */
+        justify-content: center;
+
+
+
+    }
+
+    .resume-container2 #left-right{
+        width: 100%;
+        /* align-items: center; */
+        
+        
+
+    }
+
+    .resume-container2 .left-content{
+    
+        /* border: 2px solid cadetblue; */
+        margin-bottom: 4rem;
+        padding-bottom: 1rem;
+        box-shadow: .5rem .5rem .5rem;
+
+    }
+
+    .resume-container2 .left-content .left-title{
+        background-color: white;
+        color: black;
+    }
+
+    
+    .resume-container2 .left-content .certificate{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .resume-container2 .right-content .right-title{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        color: black;
+    }
+
+    
+        
+}
+
+@media (max-width:361px){
+
+    .r-heading{
+        font-size: 3rem;
+    }
+   
+    .resume-container1{
+        display: flex;
+        /* border: 2px solid blue; */
+        margin-top: rem;
+        /* justify-content: space-between; */
+        box-shadow: .5rem .5rem .5rem;
+        flex-wrap: wrap;
+    
+    }  
+    
+
+    .resume-container2{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid blue; */
+        justify-content: center;
+
+
+
+    }
+
+    .resume-container2 #left-right{
+        width: 100%;
+        /* align-items: center; */
+        
+        
+
+    }
+
+    .resume-container2 .left-content{
+    
+        /* border: 2px solid cadetblue; */
+        margin-bottom: 4rem;
+        padding-bottom: 1rem;
+        box-shadow: .5rem .5rem .5rem;
+
+    }
+
+    .resume-container2 .left-content .left-title{
+        background-color: white;
+        color: black;
+    }
+
+    
+    .resume-container2 .left-content .certificate{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .resume-container2 .right-content .right-title{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        color: black;
+    }
+
+    
+        
+}
